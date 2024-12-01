@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin:0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    body{
+        height:100vh;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        color:white;
+        font-size: 55px;
+    }
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+</style>
+<body>
+    <!-- <h1>kadk</h1> -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="logo1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="logo1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="logo1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="logo1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="logo1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="logo1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="logo1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="logo1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="logo1.jpg" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+</body>
+</html>

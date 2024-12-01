@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+.aman{
+    size:300px;
+    color:orange;
+}
+ion-icon {
+  color: orange;
+  /* background-color: orange; */
+  border-radius: 100%;
+  --ionicon-stroke-width: 80px;
+  font-size: 16px;
+  position:absolute;
+  top:20px;
+  right:20px;
+}
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+.wraper{
+    width:240px;
+    background-color: aquamarine;
+    color:white;
+    padding: 30px 40px;
+}
+.wraper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wraper .input-box{
+    width:100%;
+    height:50px;
+    /* background-color: bisque; */
+    margin:30px 0px;
+    position: relative;
+}
+
+.input-box input{
+    
+    width:100%;
+    height:50px;
+    background-color: bisque;
+    padding: 4px;
+    text-align: center;
+    border-radius: 40px;
+    
+}
+.input-box input::placeholder{
+    color:aliceblue;
+}
+
+</style>
+<body>
+    <div class="wraper">
+        <form action="">
+            <h1>login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username">
+                <ion-icon name="person-outline"></ion-icon>
+
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="password">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">forgot passowrd?</a>
+            </div>
+            <button type="submit" class="btn">login</button>
+            <div class="register-link"><p>dont have a account?<a href="#">register</a></p></div>
+        </form>
+
+    </div>
+  
+    
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>

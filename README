@@ -1,0 +1,28 @@
+# Food Delivery Website
+
+This is a simple food delivery website built using HTML and CSS. The website incorporates various modern web development techniques such as SVG graphics, forms, CSS Grid layout, and transformation animations to create an interactive and visually appealing user experience.
+
+## Features
+
+- **Responsive Design**: The website is fully responsive and adjusts to different screen sizes (desktop, tablet, mobile).
+- **SVG Graphics**: High-quality vector images that scale well on all screen sizes.
+- **CSS Grid Layout**: A flexible, clean layout using CSS Grid to ensure responsiveness.
+- **CSS Transitions and Animations**: Smooth animations and transitions for interactive elements.
+- **Forms**: Interactive forms for users to submit food delivery orders.
+
+## Technologies Used
+
+- **HTML**: For the structure and content of the website.
+- **CSS**: For styling, layout, and animations.
+- **SVG**: For vector graphics that scale on all devices.
+- **CSS Grid**: For responsive, flexible layouts.
+- **CSS Transitions and Transformations**: For smooth interactive animations and hover effects.
+
+
+## Customization
+To customize the website:
+
+Modify the HTML to add or change content, forms, or pages.
+Edit the CSS to change styling, animations, or layout. You can adjust colors, fonts, or animations as needed.
+Replace or add new SVG images to better suit your theme.
+Contributing
